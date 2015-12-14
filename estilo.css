@@ -1,16 +1,17 @@
 body {
 	margin:0px;
 }
-div {
-	background: red;
+
+#container {
+	background: yellow;
 }
 
 .box {
 	position: relative;
 	background: blue;
 	display: inline-block;
-	border: 0px solid black;
-	width: 6.25%;
-	height: 80px;
+	border: 0px;
+	width: 3.99%;
+	height: 52px;
 	margin:-2px;
 }
