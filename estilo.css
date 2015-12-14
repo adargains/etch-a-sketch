@@ -3,15 +3,14 @@ body {
 }
 div {
 	background: red;
-
-
 }
 
-div div {
+.box {
 	position: relative;
 	background: blue;
 	display: inline-block;
-	border: 1px solid black;
-	width: 40px;
-	height: 40px;
+	border: 0px solid black;
+	width: 6.25%;
+	height: 80px;
+	margin:-2px;
 }
