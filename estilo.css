@@ -11,3 +11,26 @@ body {
 	height: 52px;
 	margin:-2px;
 }
+
+.cor {
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	display: inline-block;
+}
+
+#blue {
+	background: blue;
+}
+
+#red {
+	background: red;
+}
+
+#yellow {
+	background: yellow;
+}
+
+td {
+	text-align: center;
+}
