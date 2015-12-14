@@ -1,13 +1,17 @@
 $(document).ready(function(){
-	$("button").click(function(){
+	$("#comecar").click(function(){
 		var i = 0;
-		while(i<405){
+		while(i<324){
 			$("#container").append("<div class='box'></div>");
 			i++;
 		}
 	});
+
+	$("#limpar").click(function(){
+		$(".box").css("background","white");
+	})
 });
 
 $(document).on("mouseenter",".box", function(){
-        	$(this).css("background","red");
-    	});
+	$(this).css("background","black");
+});

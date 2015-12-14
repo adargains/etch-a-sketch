@@ -2,13 +2,9 @@ body {
 	margin:0px;
 }
 
-#container {
-	background: yellow;
-}
-
 .box {
 	position: relative;
-	background: blue;
+	background: white;
 	display: inline-block;
 	border: 0px;
 	width: 3.99%;
